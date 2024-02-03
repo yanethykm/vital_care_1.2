@@ -1,0 +1,238 @@
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Presentacion.dll.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Presentacion.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Presentacion.pdb
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csc.exe
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csc.rsp
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csi.exe
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\csi.rsp
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\vbc.exe
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Logic.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\WebGrease.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Data.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Oracle.DataAccess.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Interactive.Async.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Remotion.Linq.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.ComponentModel.Annotations.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Collections.Immutable.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Memory.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Options.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Numerics.Vectors.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Buffers.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Logic.pdb
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Logic.dll.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Data.pdb
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Data.dll.config
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Interactive.Async.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Remotion.Linq.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Collections.Immutable.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Memory.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Options.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Numerics.Vectors.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\System.Buffers.xml
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\yanet\source\repos\Vital_Care_I\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Presentacion.dll.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Presentacion.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Presentacion.pdb
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csc.exe
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csc.exe.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csc.rsp
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csi.exe
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csi.exe.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\csi.rsp
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.AppContext.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Console.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.IO.Compression.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Net.Http.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.ValueTuple.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\vbc.exe
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\vbc.exe.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\vbc.rsp
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\VBCSCompiler.exe
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Antlr3.Runtime.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Logic.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.FriendlyUrls.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Newtonsoft.Json.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Web.Optimization.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\WebGrease.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Data.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Oracle.DataAccess.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Interactive.Async.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Remotion.Linq.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.ComponentModel.Annotations.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Collections.Immutable.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Memory.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Options.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Numerics.Vectors.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Buffers.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Logic.pdb
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Logic.dll.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Web.Optimization.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Newtonsoft.Json.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Antlr3.Runtime.pdb
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.AspNet.FriendlyUrls.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Data.pdb
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Data.dll.config
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Abstractions.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Interactive.Async.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Remotion.Linq.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.EntityFrameworkCore.Abstractions.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Collections.Immutable.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Caching.Memory.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Logging.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Memory.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\Microsoft.Extensions.Options.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Numerics.Vectors.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\System.Buffers.xml
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\es\System.Web.Optimization.resources.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\bin\es\Microsoft.AspNet.FriendlyUrls.resources.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\obj\Debug\Presentacion.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Presentacion\obj\Debug\Presentacion.pdb
