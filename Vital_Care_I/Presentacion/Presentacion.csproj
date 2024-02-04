@@ -153,6 +153,7 @@
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
     <Content Include="WFPerson.aspx" />
+    <Content Include="WFProvider.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -241,6 +242,13 @@
     </Compile>
     <Compile Include="WFPerson.aspx.designer.cs">
       <DependentUpon>WFPerson.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFProvider.aspx.cs">
+      <DependentUpon>WFProvider.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFProvider.aspx.designer.cs">
+      <DependentUpon>WFProvider.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

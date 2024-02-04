@@ -235,6 +235,7 @@
   <ItemGroup>
     <Compile Include="Persistence.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Provider.cs" />
     <Compile Include="showPerson.cs" />
   </ItemGroup>
   <ItemGroup>

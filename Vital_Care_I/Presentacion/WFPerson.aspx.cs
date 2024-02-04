@@ -182,5 +182,31 @@ namespace Presentacion
         {
             limpiar();
         }
+
+        protected void BtnEliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                _ID = Convert.ToInt32(LBID.Text);
+
+                DataTable executed = businessLogic.Eliminar(_ID);
+
+                if (executed != null)
+                {
+                    LblMensaje.Text = "Eliminación exitosa";
+                    limpiar();
+                    list();
+                }
+                else
+                {
+                    LblMensaje.Text = "Error al eliminar";
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                LblMensaje.Text = "Error durante la operación. Consulta los registros para más detalles.";
+            }
+        }
     }
 }

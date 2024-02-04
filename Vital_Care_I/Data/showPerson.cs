@@ -212,7 +212,7 @@ namespace Data
             }
         }
 
-        public DataTable EliminarPersona(int ID)
+        public DataTable EliminarPersona(int _ID)
         {
             try
             {
@@ -226,7 +226,9 @@ namespace Data
                 p_Cursor.Direction = ParameterDirection.Output;
                 cmd.Parameters.Add(p_Cursor);
 
-                cmd.Parameters.Add("p_ID", OracleDbType.Int32).Value=ID;
+                OracleParameter p_ID = new OracleParameter("p_ID", OracleDbType.Int32);
+                p_ID.Direction = ParameterDirection.Input;
+                p_ID.Value = _ID;
 
                 OracleDataAdapter da = new OracleDataAdapter(cmd);
                 da.Fill(ds);
