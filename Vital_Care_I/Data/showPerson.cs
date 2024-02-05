@@ -224,11 +224,13 @@ namespace Data
 
                 OracleParameter p_Cursor = new OracleParameter("p_Cursor", OracleDbType.RefCursor);
                 p_Cursor.Direction = ParameterDirection.Output;
-                cmd.Parameters.Add(p_Cursor);
 
                 OracleParameter p_ID = new OracleParameter("p_ID", OracleDbType.Int32);
                 p_ID.Direction = ParameterDirection.Input;
                 p_ID.Value = _ID;
+
+                cmd.Parameters.Add(p_Cursor);
+                cmd.Parameters.Add(p_ID);
 
                 OracleDataAdapter da = new OracleDataAdapter(cmd);
                 da.Fill(ds);
