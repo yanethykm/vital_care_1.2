@@ -1,6 +1,6 @@
 CREATE OR REPLACE PACKAGE pq_Persona_Package AS
   -- Procedimiento para insertar una nueva persona
-  PROCEDURE sp_Insert_Persona (
+   PROCEDURE sp_Insert_Persona (
         p_Cursor OUT SYS_REFCURSOR,
         p_NitCedula IN INT,
         p_NombreRazonSocial IN VARCHAR,
@@ -9,27 +9,25 @@ CREATE OR REPLACE PACKAGE pq_Persona_Package AS
         p_Telefono IN VARCHAR,
         p_Email IN VARCHAR,
         p_TipoDocumento IN VARCHAR
-        
     );
-
 
   -- Procedimiento para listar todas las persona
   PROCEDURE sp_List_Persona(p_Cursor OUT SYS_REFCURSOR);
 
   -- Procedimiento para actualizar una persona
   PROCEDURE sp_Update_Persona (
-    p_Cursor OUT SYS_REFCURSOR,
-    p_ID IN INT,
-    p_NitCedula IN INT,
-    p_NombreRazonSocial IN VARCHAR,
-    p_Apellido IN VARCHAR,
-    p_Direccion IN VARCHAR,
-    p_Telefono IN VARCHAR,
-    p_Email IN VARCHAR,
-    p_TipoDocumento IN VARCHAR
-);
+        p_Cursor OUT SYS_REFCURSOR,
+        p_ID IN INT,
+        p_NitCedula IN INT,
+        p_NombreRazonSocial IN VARCHAR,
+        p_Apellido IN VARCHAR,
+        p_Direccion IN VARCHAR,
+        p_Telefono IN VARCHAR,
+        p_Email IN VARCHAR,
+        p_TipoDocumento IN VARCHAR);
+
   -- Procedimiento para eliminar una categoría por ID
-  PROCEDURE sp_Delete_Persona (p_ID IN INT);
+  PROCEDURE sp_Delete_Persona (p_Cursor OUT SYS_REFCURSOR, p_ID IN INT);
 END pq_Persona_Package;
 -------------------------------------------------------------------------------
 -------------------------------------------------------------------------------
@@ -45,7 +43,7 @@ CREATE OR REPLACE PACKAGE BODY pq_Persona_Package AS
         p_Direccion IN VARCHAR,
         p_Telefono IN VARCHAR,
         p_Email IN VARCHAR,
-        p_TipoDocumento IN VARCHAR
+        p_TipoDocumento IN VARCHAR        
     ) AS
     BEGIN
         INSERT INTO Persona (Nit_Cedula, Nombre_RazonSocial, Apellido, Direccion, Telefono, Email, TipoDocumento)
@@ -69,7 +67,7 @@ CREATE OR REPLACE PACKAGE BODY pq_Persona_Package AS
     PROCEDURE sp_List_Persona(p_Cursor OUT SYS_REFCURSOR)AS
     BEGIN
         OPEN p_Cursor FOR    
-          SELECT Nit_Cedula as "Identificación", 
+          SELECT ID as "Id", Nit_Cedula as "Identificación", 
           Nombre_RazonSocial as "Nombre / Razón Social", 
           Apellido as "Apellido", 
           Direccion as "Dirección", 
@@ -121,7 +119,7 @@ CREATE OR REPLACE PACKAGE BODY pq_Persona_Package AS
         WHERE ID = p_ID;
         
         OPEN p_Cursor FOR
-        SELECT ID, Nit_Cedula, Nombre_RazonSocial, Apellido, Direccion, Telefono, Email, TipoDocumento FROM Persona WHERE ID = p_ID;
+        SELECT ID, Nit_Cedula, Nombre_RazonSocial, Apellido, Direccion, Telefono, Email, TipoDocumento FROM Persona WHERE ROWNUM = 0;
         
         COMMIT;
     EXCEPTION
