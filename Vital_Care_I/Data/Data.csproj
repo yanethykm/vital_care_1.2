@@ -234,6 +234,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buy.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Devolution.cs" />
     <Compile Include="Persistence.cs" />
     <Compile Include="Product.cs" />
@@ -241,6 +242,7 @@
     <Compile Include="Provider.cs" />
     <Compile Include="Sale.cs" />
     <Compile Include="showPerson.cs" />
+    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Oracle.DataAccess.Common.Configuration.Section.xsd">

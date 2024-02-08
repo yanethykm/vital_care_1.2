@@ -83,7 +83,7 @@ namespace Data
                 OracleParameter p_Cursor = new OracleParameter("p_Cursor", OracleDbType.RefCursor);
                 p_Cursor.Direction = ParameterDirection.Output;
 
-                OracleParameter p_ID = new OracleParameter("p_ID", OracleDbType.Int32);
+                OracleParameter p_ID = new OracleParameter("p_IdProducto", OracleDbType.Int32);
                 p_ID.Direction = ParameterDirection.Input;
                 p_ID.Value = ID;
 
@@ -164,11 +164,11 @@ namespace Data
                 OracleParameter p_Cursor = new OracleParameter("p_Cursor", OracleDbType.RefCursor);
                 p_Cursor.Direction = ParameterDirection.Output;
 
-                OracleParameter p_IDOld = new OracleParameter("p_IDOld", OracleDbType.Int32);
+                OracleParameter p_IDOld = new OracleParameter("p_OldIdProducto", OracleDbType.Int32);
                 p_IDOld.Direction = ParameterDirection.Input;
                 p_IDOld.Value = IDOld;
 
-                OracleParameter p_IDNew = new OracleParameter("p_IDNew", OracleDbType.Int32);
+                OracleParameter p_IDNew = new OracleParameter("p_NewIdProducto", OracleDbType.Int32);
                 p_IDNew.Direction = ParameterDirection.Input;
                 p_IDNew.Value = IDNew;
 

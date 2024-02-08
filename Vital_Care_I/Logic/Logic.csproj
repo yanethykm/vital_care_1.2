@@ -71,12 +71,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuyLog.cs" />
+    <Compile Include="CategoryLog.cs" />
     <Compile Include="DevolutionLog.cs" />
     <Compile Include="PersonLog.cs" />
     <Compile Include="ProductLog.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ProviderLog.cs" />
     <Compile Include="SaleLog.cs" />
+    <Compile Include="UserLog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
