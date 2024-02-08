@@ -71,7 +71,7 @@ namespace Presentacion
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                LblMensaje.Text = "Error durante la operación de guardar. Consulta los registros para más detalles.";
+                LblMensaje.Text = "Error durante la operación de guardar. No pueden haber campos vacios..";
             }
         }
 

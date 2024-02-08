@@ -86,7 +86,7 @@ namespace Presentacion
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                LblMensaje.Text = "Error durante la operación de eliminar. Consulta los registros para más detalles.";
+                LblMensaje.Text = "Error durante la operación de eliminar. No pueden haber campos vacios.";
             }
         }
 
