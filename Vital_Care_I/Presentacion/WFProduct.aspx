@@ -10,6 +10,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta</asp:HyperLink>
+            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFBuy.aspx">Compras</asp:HyperLink>
             <h1>Producto</h1>
             <hr /><br />
             <asp:Label ID="LBID" runat="server" Text="ID" Visible="false"></asp:Label><br />

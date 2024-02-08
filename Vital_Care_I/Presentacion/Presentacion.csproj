@@ -152,9 +152,12 @@
     <Content Include="Content\bootstrap-grid.rtl.css.map" />
     <Content Include="Content\bootstrap-grid.min.css.map" />
     <Content Include="Content\bootstrap-grid.css.map" />
+    <Content Include="WFBuy.aspx" />
+    <Content Include="WFDevolution.aspx" />
     <Content Include="WFPerson.aspx" />
     <Content Include="WFProduct.aspx" />
     <Content Include="WFProvider.aspx" />
+    <Content Include="WFSale.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -237,6 +240,20 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="WFBuy.aspx.cs">
+      <DependentUpon>WFBuy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFBuy.aspx.designer.cs">
+      <DependentUpon>WFBuy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFDevolution.aspx.cs">
+      <DependentUpon>WFDevolution.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFDevolution.aspx.designer.cs">
+      <DependentUpon>WFDevolution.aspx</DependentUpon>
+    </Compile>
     <Compile Include="WFPerson.aspx.cs">
       <DependentUpon>WFPerson.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -257,6 +274,13 @@
     </Compile>
     <Compile Include="WFProvider.aspx.designer.cs">
       <DependentUpon>WFProvider.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WFSale.aspx.cs">
+      <DependentUpon>WFSale.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WFSale.aspx.designer.cs">
+      <DependentUpon>WFSale.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
