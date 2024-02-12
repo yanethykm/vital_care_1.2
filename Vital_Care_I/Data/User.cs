@@ -57,7 +57,7 @@ namespace Data
             }
         }
 
-        public DataTable InsertarUsuario(string Usuario, string Clave, int IdPersona)
+        public DataTable InsertarUsuario(string Usuario, string Clave, string Estado,int IdPersona)
         {
             try
             {
@@ -78,6 +78,10 @@ namespace Data
                 p_Clave.Direction = ParameterDirection.Input;
                 p_Clave.Value = Clave;
 
+                OracleParameter p_Estado = new OracleParameter("p_Estado", OracleDbType.Varchar2);
+                p_Estado.Direction = ParameterDirection.Input;
+                p_Estado.Value = Estado;
+
                 OracleParameter p_IdPersona = new OracleParameter("p_IdPersona", OracleDbType.Int32);
                 p_IdPersona.Direction = ParameterDirection.Input;
                 p_IdPersona.Value = IdPersona;
@@ -85,6 +89,7 @@ namespace Data
                 cmd.Parameters.Add(p_Cursor);
                 cmd.Parameters.Add(p_Usuario);
                 cmd.Parameters.Add(p_Clave);
+                cmd.Parameters.Add(p_Estado);
                 cmd.Parameters.Add(p_IdPersona);
 
                 OracleDataAdapter da = new OracleDataAdapter(cmd);
@@ -100,7 +105,7 @@ namespace Data
             }
         }
 
-        public DataTable ActualizarUsuario(int IdUsuario, string Usuario, string Clave, int IdPersona)
+        public DataTable ActualizarUsuario(int IdUsuario, string Usuario, string Clave, string Estado, int IdPersona)
         {
             try
             {
@@ -125,6 +130,10 @@ namespace Data
                 p_Clave.Direction = ParameterDirection.Input;
                 p_Clave.Value = Clave;
 
+                OracleParameter p_Estado = new OracleParameter("p_Estado", OracleDbType.Varchar2);
+                p_Estado.Direction = ParameterDirection.Input;
+                p_Estado.Value = Estado;
+
                 OracleParameter p_IdPersona = new OracleParameter("p_IdPersona", OracleDbType.Int32);
                 p_IdPersona.Direction = ParameterDirection.Input;
                 p_IdPersona.Value = IdPersona;
@@ -133,6 +142,7 @@ namespace Data
                 cmd.Parameters.Add(p_IdUsuario);
                 cmd.Parameters.Add(p_Usuario);
                 cmd.Parameters.Add(p_Clave);
+                cmd.Parameters.Add(p_Estado);
                 cmd.Parameters.Add(p_IdPersona);
 
 
@@ -168,6 +178,34 @@ namespace Data
 
                 cmd.Parameters.Add(p_Cursor);
                 cmd.Parameters.Add(p_IdUsuario);
+
+                OracleDataAdapter da = new OracleDataAdapter(cmd);
+                da.Fill(ds);
+
+                db.CerrarConexion();
+
+                return ds;
+            }
+            catch (Exception ex)
+            {
+                return null;
+            }
+        }
+
+        public DataTable ListarPersona()
+        {
+            try
+            {
+                DataTable ds = new DataTable();
+                db.AbrirConexion();
+
+                OracleCommand cmd = new OracleCommand("PQ_USUARIO_PACKAGE.SP_LIST_PERSONA", db.Conexion);
+                cmd.CommandType = CommandType.StoredProcedure;
+
+                OracleParameter p_Cursor = new OracleParameter("p_Cursor", OracleDbType.RefCursor);
+                p_Cursor.Direction = ParameterDirection.Output;
+
+                cmd.Parameters.Add(p_Cursor);
 
                 OracleDataAdapter da = new OracleDataAdapter(cmd);
                 da.Fill(ds);

@@ -20,10 +20,12 @@
             <h1>Usuarios </h1>
             <hr />
             <asp:Label ID="LBID" runat="server" Text="Label" Visible="false"></asp:Label><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Tipo de Usuario </asp:Label><br />
+            <asp:Label ID="Label1" runat="server" Text="Label">Nombre Usuario </asp:Label><br />
             <asp:TextBox ID="TBUsuario" runat="server"></asp:TextBox><br />
             <asp:Label ID="Label2" runat="server" Text="Label">Password </asp:Label><br />
             <asp:TextBox ID="TBClave" runat="server"></asp:TextBox><br />
+            <asp:Label ID="Label4" runat="server" Text="Label">Estado </asp:Label><br />
+            <asp:TextBox ID="TBEstado" runat="server"></asp:TextBox><br />
             <asp:Label ID="Label3" runat="server" Text="Label">Persona asignada al usuario (ID) </asp:Label><br />
             <asp:TextBox ID="TBPersona" runat="server"></asp:TextBox><br />
             <br />

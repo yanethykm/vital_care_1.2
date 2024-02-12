@@ -71,11 +71,7 @@ namespace Presentacion
                 {
                     // Mostrar la información en los TextBoxes
                     LBID.Text = resultado.Rows[0]["ID"].ToString();
-                    TBNit.Text = resultado.Rows[0]["Nit_Cedula"].ToString();
-                    TBNombre.Text = resultado.Rows[0]["Nombre_RazonSocial"].ToString();
-                    TBApellido.Text = resultado.Rows[0]["Apellido"].ToString();
-                    TBTelefono.Text = resultado.Rows[0]["Telefono"].ToString();
-                    TBEmail.Text = resultado.Rows[0]["Email"].ToString();
+                   
                     // Agrega más líneas para otros campos según sea necesario
                 }
 

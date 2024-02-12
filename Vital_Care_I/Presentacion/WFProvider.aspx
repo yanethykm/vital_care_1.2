@@ -1,41 +1,27 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WFProvider.aspx.cs" Inherits="Presentacion.WFProvider" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WFProvider.aspx.cs" Inherits="Presentacion.WFProvider" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    Usuarios
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <form id="form1" class="row g-3" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFProduct.aspx">Producto </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WFPerson.aspx">Persona</asp:HyperLink>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WFDevolution.aspx">Devolucion </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/WFBuy.aspx">Compra </asp:HyperLink>
+            <br />
             <h1>Proveedor</h1>
-            <hr /><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Seleccione una Persona  </asp:Label>
-            <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
-                <asp:ListItem Text="--Seleccione una Persona--" Value=""></asp:ListItem>
-            </asp:DropDownList>
-            <br />
-            <br />
+            <hr />
             <asp:Label ID="LBID" runat="server" Text="Label" Visible="true"></asp:Label>
-            <asp:Label ID="Label2" runat="server" Text="Label">Identificación </asp:Label>
-            <asp:TextBox ID="TBNit" runat="server" ReadOnly="true"></asp:TextBox><br />
-            <asp:Label ID="Label3" runat="server" Text="Label ">Nombre </asp:Label>
-            <asp:TextBox ID="TBNombre" runat="server" ReadOnly="true"></asp:TextBox><br />
-            <asp:Label ID="Label5" runat="server" Text="Label">Apellido </asp:Label>
-            <asp:TextBox ID="TBApellido" runat="server" ReadOnly="true"></asp:TextBox><br />
-            <asp:Label ID="Label6" runat="server" Text="Label">Teléfono </asp:Label>
-            <asp:TextBox ID="TBTelefono" runat="server" ReadOnly="true"></asp:TextBox><br />
-            <asp:Label ID="Label4" runat="server" Text="Label">Email </asp:Label>
-            <asp:TextBox ID="TBEmail" runat="server" ReadOnly="true"></asp:TextBox><br />
-            <asp:Button ID="BtnGuardarP" runat="server" Text="Guardar" OnClick="BtnGuardarP_Click" />
-            <br />
+            <div class="col-md-6">
+                <asp:Label ID="Label1" runat="server" Text="Label">Seleccione una Persona  </asp:Label>
+                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="true" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+                    <asp:ListItem Text="--Seleccione una Persona--" Value=""></asp:ListItem>
+                </asp:DropDownList>
+            </div>
+            <div class="col-12">
+                <asp:Button ID="BtnGuardarP" runat="server" Text="Guardar" OnClick="BtnGuardarP_Click" CssClass="btn btn-primary"/>
+            </div>
+                <br />
             <asp:GridView ID="GVProvider" runat="server" OnSelectedIndexChanged="GVProvider_SelectedIndexChanged" AutoGenerateColumns="true" OnRowDeleting="GVProvider_RowDeleting">
                 <Columns>
                     <asp:CommandField ShowSelectButton="true" />
@@ -44,5 +30,4 @@
             </asp:GridView>
         </div>
     </form>
-</body>
-</html>
+</asp:Content>

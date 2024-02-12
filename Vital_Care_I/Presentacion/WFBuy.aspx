@@ -1,45 +1,50 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WFBuy.aspx.cs" Inherits="Presentacion.WFBuy" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WFBuy.aspx.cs" Inherits="Presentacion.WFBuy" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    Compras
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <form id="form1" class="row g-3" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFProvider.aspx">Proveedor </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WFProduct.aspx">Producto </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WFPerson.aspx">Persona </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/WFDevolution.aspx">Devolucion </asp:HyperLink>
             <h1>Compras </h1>
             <hr />
             <asp:Label ID="LBID" runat="server" Text="Label" Visible="false"></asp:Label><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Numero Factura </asp:Label><br />
-            <asp:TextBox ID="TBNFactura" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label2" runat="server" Text="Label">Facha de Compra (AAAA-MM-DD) </asp:Label><br />
-            <asp:TextBox ID="TBFecha" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label3" runat="server" Text="Label">Cantidad Comprada </asp:Label><br />
-            <asp:TextBox ID="TBCantidad" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label4" runat="server" Text="Label">Precio Unitario </asp:Label><br />
-            <asp:TextBox ID="TBPrecioU" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label5" runat="server" Text="Label">Producto ID</asp:Label><br />
-            <asp:TextBox ID="TBProducto" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label6" runat="server" Text="Label">Proveedor ID</asp:Label><br />
-            <asp:TextBox ID="TBProveedor" runat="server"></asp:TextBox>
-            <br />
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Numero de Factura</label>
+                <asp:TextBox ID="TBNFactura" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Facha de Compra (AAAA-MM-DD)</label>
+                <asp:TextBox ID="TBFecha" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Cantidad Comprada</label>
+                <asp:TextBox ID="TBCantidad" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Precio Unitario</label>
+                <asp:TextBox ID="TBPrecioU" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Producto ID</label>
+                <asp:TextBox ID="TBProducto" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Proveedor ID</label>
+                <asp:TextBox ID="TBProveedor" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
             <br />
             <asp:Label ID="LblMensaje" runat="server" Text=""></asp:Label>
             <br />
-            <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click"/>
-            <asp:Button ID="BtnEliminar" runat="server" Text="Eliminar" OnClick="BtnEliminar_Click"/>
-            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click"/>
+            <div class="col-12">
+                <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click" CssClass="btn btn-primary" />
+                <asp:Button ID="BtnEliminar" runat="server" Text="Eliminar" OnClick="BtnEliminar_Click" CssClass="btn btn-danger"/>
+                <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click" CssClass="btn btn-primary"/>
+            </div>
             <br />
-            <br />
-            <asp:GridView ID="GVBuy" runat="server" AutoGenerateColumns="true" OnSelectedIndexChanged="GVBuy_SelectedIndexChanged" OnRowDeleting="GVBuy_RowDeleting">
+            <asp:GridView ID="GVBuy" runat="server" AutoGenerateColumns="true" OnSelectedIndexChanged="GVBuy_SelectedIndexChanged" OnRowDeleting="GVBuy_RowDeleting" CssClass="p-3 border bg-light text-center">
                 <Columns>
                     <asp:CommandField ShowSelectButton="true" />
                     <asp:CommandField ShowDeleteButton="true" />
@@ -47,5 +52,4 @@
             </asp:GridView>
         </div>
     </form>
-</body>
-</html>
+</asp:Content>

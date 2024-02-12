@@ -1,48 +1,69 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WFProduct.aspx.cs" Inherits="Presentacion.WFProduct" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WFProduct.aspx.cs" Inherits="Presentacion.WFProduct" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    Usuarios
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <form id="form1" class="row g-3" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFProvider.aspx">Proveedor </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WFPerson.aspx">Persona </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WFDevolution.aspx">Devolucion </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/WFBuy.aspx">Compra </asp:HyperLink>
+            <br />
             <h1>Producto</h1>
-            <hr /><br />
+            <hr />
+
             <asp:Label ID="LBID" runat="server" Text="ID" Visible="false"></asp:Label><br />
-            <asp:Label ID="Label8" runat="server" Text="Label">Codigo </asp:Label>
-            <asp:TextBox ID="TBCodigo" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Producto </asp:Label>
-            <asp:TextBox ID="TBProducto" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label2" runat="server" Text="Label">Descripcion </asp:Label>
-            <asp:TextBox ID="TBDescripcion" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label3" runat="server" Text="Label">Precio de venta </asp:Label>
-            <asp:TextBox ID="TBPrecioventa" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label4" runat="server" Text="Label">Cantidad mínima en stock </asp:Label>
-            <asp:TextBox ID="TBCantidadminima" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label5" runat="server" Text="Label">Cantidad existencia </asp:Label>
-            <asp:TextBox ID="TBCantidad" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label6" runat="server" Text="Label">Categoria ID</asp:Label>
-            <asp:TextBox ID="TBCategoria" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label7" runat="server" Text="Label">Proveedor ID</asp:Label>
-            <asp:TextBox ID="TBProveedor" runat="server"></asp:TextBox><br /><br /><br />
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Codigo</label>
+                <asp:TextBox ID="TBCodigo" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Nombre Producto</label>
+                <asp:TextBox ID="TBProducto" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Presentación/Descripcion</label>
+                <asp:TextBox ID="TBDescripcion" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Precio de Venta</label>
+                <asp:TextBox ID="TBPrecioventa" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Cantidad Minima en Stock</label>
+                <asp:TextBox ID="TBCantidadminima" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Cantidad existencia</label>
+                <asp:TextBox ID="TBCantidad" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Categoria ID</label>
+                <asp:TextBox ID="TBCategoria" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Proveedor ID</label>
+                <asp:TextBox ID="TBProveedor" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
             <hr />
             <asp:Label ID="LblMensaje" runat="server" Text=""></asp:Label><br />
-            <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click"/>
-            <asp:Button ID="BtnActualizar" runat="server" Text="Actualizar" OnClick="BtnActualizar_Click" />
-            <asp:Button ID="BtnEliminar" runat="server" Text="Eliminar" OnClick="BtnEliminar_Click" />
-            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click" />
+            <br />
+            <div class="col-12">
+                <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnActualizar" runat="server" Text="Actualizar" OnClick="BtnActualizar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnEliminar" runat="server" Text="Eliminar" OnClick="BtnEliminar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click" CssClass="btn btn-primary"/>
+            </div>
             <br />
             <hr />
-            <asp:GridView ID="GVProduct" AutoGenerateColumns="true" OnSelectedIndexChanged="GVProduct_SelectedIndexChanged" OnRowDeleting="GVProduct_RowDeleting" runat="server">
+            <asp:GridView ID="GVProduct" AutoGenerateColumns="true" OnSelectedIndexChanged="GVProduct_SelectedIndexChanged" OnRowDeleting="GVProduct_RowDeleting" runat="server" CssClass="p-3 border bg-light text-center">
                 <Columns>
                     <asp:CommandField ShowSelectButton="true" />
                     <asp:CommandField ShowDeleteButton="true" />
@@ -50,5 +71,4 @@
             </asp:GridView>
         </div>
     </form>
-</body>
-</html>
+</asp:Content>

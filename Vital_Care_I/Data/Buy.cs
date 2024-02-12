@@ -89,6 +89,9 @@ namespace Data
                 p_IdProveedor.Direction = ParameterDirection.Input;
                 p_IdProveedor.Value = IdProveedor;
 
+                OracleParameter p_MontoTotal = new OracleParameter("p_MontoTotal", OracleDbType.Int32);
+                p_MontoTotal.Direction = ParameterDirection.Output;
+
                 cmd.Parameters.Add(p_Cursor);
                 cmd.Parameters.Add(p_NumeroFactura);
                 cmd.Parameters.Add(p_FechaCompra);
@@ -96,6 +99,8 @@ namespace Data
                 cmd.Parameters.Add(p_PrecioUnitario);
                 cmd.Parameters.Add(p_IdProducto);
                 cmd.Parameters.Add(p_IdProveedor);
+                cmd.Parameters.Add(p_MontoTotal);
+
 
 
                 OracleDataAdapter da = new OracleDataAdapter(cmd);

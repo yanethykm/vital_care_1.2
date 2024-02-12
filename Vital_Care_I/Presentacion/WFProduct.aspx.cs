@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Web;
@@ -22,12 +23,28 @@ namespace Presentacion
         private int cantidad;
         private int IdCategoria;
         private int IdProveedor;
-        
+        protected List<int> ProductIds = new List<int>();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
                 list();
+                //// Obtener los IDs de los productos de la GridView
+                //foreach (GridViewRow row in GVProduct.Rows)
+                //{
+                //    int id;
+                //    // Accedemos al valor del campo asociado al ID del producto en lugar del texto de la celda
+                //    TableCell cell = row.Cells.Cast<TableCell>().FirstOrDefault(c => c.Text == "Codigo Producto");
+                //    if (cell != null)
+                //    {
+                //        int columnIndex = cell.TabIndex; // Obtener el índice de la columna
+                //        if (int.TryParse(row.Cells[columnIndex].Text, out id))
+                //        {
+                //            ProductIds.Add(id);
+                //        }
+                //    }
+                //}
             }
         }
 
@@ -94,7 +111,6 @@ namespace Presentacion
         {
             try
             {
-                
                 _IDNew = Convert.ToInt32(TBCodigo.Text);
                 producto = TBProducto.Text;
                 descripcion = TBDescripcion.Text;
@@ -106,22 +122,23 @@ namespace Presentacion
 
                 DataTable executed = businessLogic.Insertar(_IDNew, producto, descripcion, precioventa, cantidadminima, cantidad, IdCategoria, IdProveedor);
 
-                if (executed != null)
-                {
+                 if (executed != null)
+                 {
                     LblMensaje.Text = "Registro exitoso";
                     limpiar();
                     list();
-                }
-                else
-                {
-                    LblMensaje.Text = "Error de registro";
-                }
+                 }
+                 else
+                 {
+                    LblMensaje.Text = "Error de registro, el codigo ya existe";
+                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-                LblMensaje.Text = "Error durante la operación de guardar. Consulta los registros para más detalles.";
+                LblMensaje.Text = "Error al registrar, verifique no hayan campos vacios.";
             }
+            
         }
 
         protected void BtnActualizar_Click(object sender, EventArgs e)

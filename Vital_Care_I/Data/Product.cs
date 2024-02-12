@@ -125,15 +125,17 @@ namespace Data
                 cmd.Parameters.Add(p_IdCategoria);
                 cmd.Parameters.Add(p_IdProveedor);
 
+
                 OracleDataAdapter da = new OracleDataAdapter(cmd);
                 da.Fill(ds);
 
                 db.CerrarConexion();
-
+                
                 return ds;
             }
             catch (Exception ex)
             {
+                
                 return null;
             }
         }

@@ -17,19 +17,24 @@ namespace Logic
             return objuser.ListarUsuario();
         }
 
-        public DataTable Insertar(string _Usuario, string _Clave, int _IdPersona)
+        public DataTable Insertar(string _Usuario, string _Clave, string _Estado, int _IdPersona)
         {
-            return objuser.InsertarUsuario(_Usuario, _Clave, _IdPersona);
+            return objuser.InsertarUsuario(_Usuario, _Clave, _Estado,_IdPersona);
         }
 
-        public DataTable Actualizar(int _IdUsuario, string _Usuario, string _Clave, int _IdPersona)
+        public DataTable Actualizar(int _IdUsuario, string _Usuario, string _Clave, string _Estado, int _IdPersona)
         {
-            return objuser.ActualizarUsuario(_IdUsuario, _Usuario, _Clave, _IdPersona);
+            return objuser.ActualizarUsuario(_IdUsuario, _Usuario, _Clave, _Estado, _IdPersona);
         }
 
         public DataTable Eliminar(int _IdUsuario)
         {
             return objuser.EliminarUsuario(_IdUsuario);
+        }
+
+        public DataTable ListarPersona()
+        {
+            return objuser.ListarPersona();
         }
     }
 }

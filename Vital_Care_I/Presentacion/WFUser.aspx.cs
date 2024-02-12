@@ -1,5 +1,6 @@
 ﻿using Logic;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -15,6 +16,7 @@ namespace Presentacion
         private int _ID;
         private string Usuario;
         private string Clave;
+        private string Estado;
         private int IdPersona;
 
         protected void Page_Load(object sender, EventArgs e)
@@ -47,6 +49,7 @@ namespace Presentacion
             LBID.Text = GVUser.SelectedRow.Cells[2].Text;
             TBUsuario.Text = GVUser.SelectedRow.Cells[8].Text;
             TBClave.Text = GVUser.SelectedRow.Cells[9].Text;
+            TBEstado.Text = GVUser.SelectedRow.Cells[10].Text;
             TBPersona.Text = GVUser.SelectedRow.Cells[4].Text;
         }
 
@@ -61,9 +64,10 @@ namespace Presentacion
             {
                 Usuario = TBUsuario.Text;
                 Clave = TBClave.Text;
+                Estado = TBEstado.Text;
                 IdPersona = Convert.ToInt32(TBPersona.Text);
 
-                DataTable executed = businessLogic.Insertar(Usuario, Clave, IdPersona);
+                DataTable executed = businessLogic.Insertar(Usuario, Clave, Estado,IdPersona);
 
                 if (executed != null)
                 {
@@ -90,9 +94,10 @@ namespace Presentacion
                 _ID = Convert.ToInt32(LBID.Text);
                 Usuario = TBUsuario.Text;
                 Clave = TBClave.Text;
+                Estado = TBEstado.Text;
                 IdPersona = Convert.ToInt32(TBPersona.Text);
 
-                DataTable executed = businessLogic.Actualizar(_ID, Usuario, Clave, IdPersona);
+                DataTable executed = businessLogic.Actualizar(_ID, Usuario, Clave, Estado, IdPersona);
 
                 if (executed != null)
                 {

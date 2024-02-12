@@ -152,8 +152,8 @@ C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Data.dll
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Oracle.DataAccess.dll
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Microsoft.EntityFrameworkCore.dll
+C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Oracle.DataAccess.dll
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\yanet\OneDrive\Documents\FUP\VI SEMESTRE\Vlidación BD\Vital_Care\vital_care_1.2\Vital_Care_I\Logic\bin\Microsoft.Extensions.Caching.Abstractions.dll

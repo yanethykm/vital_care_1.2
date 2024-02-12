@@ -38,7 +38,7 @@ namespace Presentacion
             TBDireccion.Text="";
             TBTelefono.Text="";
             TBEmail.Text="";
-            TBTipoDoc.Text="";
+            TBTipoD.Text="";
         }
         private void list()
         {
@@ -59,7 +59,7 @@ namespace Presentacion
             TBDireccion.Text = GridView1.SelectedRow.Cells[6].Text;
             TBTelefono.Text = GridView1.SelectedRow.Cells[7].Text;
             TBEmail.Text = GridView1.SelectedRow.Cells[8].Text;
-            TBTipoDoc.Text = GridView1.SelectedRow.Cells[9].Text;
+            TBTipoD.Text = GridView1.SelectedRow.Cells[9].Text;
         }
 
         protected void BtnGuardar_Click(object sender, EventArgs e)
@@ -90,7 +90,7 @@ namespace Presentacion
                 direccion = TBDireccion.Text;
                 telefono = TBTelefono.Text;
                 email = TBEmail.Text;
-                tipodocumento = TBTipoDoc.Text;
+                tipodocumento = TBTipoD.Text;
 
                 DataTable executed = businessLogic.Insertar(nitcedula, nombrerazonsocial, apellido, direccion, telefono, email, tipodocumento);
 
@@ -123,7 +123,7 @@ namespace Presentacion
                 direccion = TBDireccion.Text;
                 telefono = TBTelefono.Text;
                 email = TBEmail.Text;
-                tipodocumento = TBTipoDoc.Text;
+                tipodocumento = TBTipoD.Text;
 
                 DataTable executed = businessLogic.Actualizar(_ID, nitcedula, nombrerazonsocial, apellido, direccion, telefono, email, tipodocumento);
 

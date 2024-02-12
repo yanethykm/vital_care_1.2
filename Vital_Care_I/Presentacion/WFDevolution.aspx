@@ -1,40 +1,44 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WFDevolution.aspx.cs" Inherits="Presentacion.WFDevolution" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WFDevolution.aspx.cs" Inherits="Presentacion.WFDevolution" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    Devoluciones
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <form id="form1" class="row g-3" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFProvider.aspx">Proveedor </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WFProduct.aspx">Producto </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WFPerson.aspx">Persona </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/WFBuy.aspx">Compra </asp:HyperLink>
             <h1>Devoluciones </h1>
             <hr />
+
             <asp:Label ID="LBID" runat="server" Text="Label" Visible="false"></asp:Label><br />
-            <asp:Label ID="Label2" runat="server" Text="Label">Fecha de devolucion (AAAA - MM - DD) </asp:Label><br />
-            <asp:TextBox ID="TBFechaDev" runat="server" Text="AAAA - MM - DD"></asp:TextBox><br />
-            <asp:Label ID="Label3" runat="server" Text="Label">Cantidad devuelta </asp:Label><br />
-            <asp:TextBox ID="TBCantidadDev" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Razon devolucion </asp:Label><br />
-            <asp:TextBox ID="TBRazon" runat="server"></asp:TextBox><br />
-            <asp:Label ID="Label4" runat="server" Text="Label">Venta ID</asp:Label><br />
-            <asp:TextBox ID="TBVenta" runat="server"></asp:TextBox>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Fecha de devolucion (AAAA - MM - DD)</label>
+                <asp:TextBox ID="TBFechaDev" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Cantidad devuelta</label>
+                <asp:TextBox ID="TBCantidadDev" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Razon de devolucion</label>
+                <asp:TextBox ID="TBRazon" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Venta ID</label>
+                <asp:TextBox ID="TBVenta" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
             <hr />
             <asp:Label ID="LblMensaje" runat="server" Text="Label" Visible="false"></asp:Label><br />
-            <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click"/>
-            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click"/><br />
-            <asp:GridView ID="GVDevolution" runat="server" AutoGenerateColumns="true">
+            <br />
+            <div class="col-12">
+                <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click" CssClass="btn btn-primary"/><br />
+            </div>
+            <asp:GridView ID="GVDevolution" runat="server" AutoGenerateColumns="true" CssClass="p-3 border bg-light text-center">
                 <Columns>
                 </Columns>
             </asp:GridView>
         </div>
     </form>
-</body>
-</html>
+</asp:Content>

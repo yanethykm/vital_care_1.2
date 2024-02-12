@@ -1,35 +1,29 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WFCategory.aspx.cs" Inherits="Presentacion.WFCategory" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WFCategory.aspx.cs" Inherits="Presentacion.WFCategory" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    Categorias
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <form id="form1" class="row g-3" runat="server">
         <div>
-            <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/WFSale.aspx">Venta </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/WFProvider.aspx">Proveedor </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/WFPerson.aspx">Persona </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/WFDevolution.aspx">Devolucion </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink5" runat="server" NavigateUrl="~/WFBuy.aspx">Compra </asp:HyperLink>
-            <asp:HyperLink ID="HyperLink6" runat="server" NavigateUrl="~/WFUser.aspx">Compra </asp:HyperLink>
-
             <h1>Categorias </h1>
             <hr />
             <asp:Label ID="LBID" runat="server" Text="Label" Visible="false"></asp:Label><br />
-            <asp:Label ID="Label1" runat="server" Text="Label">Nombre de la Categoria </asp:Label><br />
-            <asp:TextBox ID="TBCategoria" runat="server"></asp:TextBox><br />
-            <br />
+            <div class="col-md-6">
+                <label for="inputState" class="form-label" runat="server">Nombre de la Categoria</label>
+                <asp:TextBox ID="TBCategoria" runat="server" CssClass="form-control"></asp:TextBox>
+            </div>
             <asp:Label ID="LblMensaje" runat="server" Text=""></asp:Label><br />
-            <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click"/>
-            <asp:Button ID="BtnActualizar" runat="server" Text="Actualizar" OnClick="BtnActualizar_Click"/>
-            <asp:Button ID="Eliminar" runat="server" Text="Eliminar" OnClick="Eliminar_Click"/>
-            <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click"/><br />
+            <div class="col-12">
+                <asp:Button ID="BtnGuardar" runat="server" Text="Guardar" OnClick="BtnGuardar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnActualizar" runat="server" Text="Actualizar" OnClick="BtnActualizar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="Eliminar" runat="server" Text="Eliminar" OnClick="Eliminar_Click" CssClass="btn btn-primary"/>
+                <asp:Button ID="BtnLimpiar" runat="server" Text="Limpiar" OnClick="BtnLimpiar_Click" CssClass="btn btn-primary"/><br />
+            </div>
             <br />
-            <asp:GridView ID="GVCategory" runat="server" AutoGenerateColumns="true" OnSelectedIndexChanged="GVCategory_SelectedIndexChanged" OnRowDeleting="GVCategory_RowDeleting">
+            <asp:GridView ID="GVCategory" runat="server" AutoGenerateColumns="true" OnSelectedIndexChanged="GVCategory_SelectedIndexChanged" OnRowDeleting="GVCategory_RowDeleting" CssClass="p-3 border bg-light text-center">
                 <Columns>
                     <asp:CommandField ShowSelectButton="true" />
                     <asp:CommandField ShowDeleteButton="true" />
@@ -37,5 +31,4 @@
             </asp:GridView>
         </div>
     </form>
-</body>
-</html>
+</asp:Content>
